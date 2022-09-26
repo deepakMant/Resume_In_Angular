@@ -1,0 +1,44 @@
+<div class="hedaingBorder">
+  <h1>Personal Information</h1>
+</div>
+<div>
+    
+<ul *ngFor="let info of personalinfo">
+    <li>
+      <p>Fathers Name :  <span>{{ info.father }}</span></p>
+      
+    </li>
+    <li>
+      <p>Mother Name : <span>{{ info.mother }}</span></p>
+    </li>
+    <li>
+      <p>Birth Date : <span>{{ info.birth }}</span></p>
+    </li>
+    <li>
+      <p>Gender : <span>{{ info.gender }}</span></p>
+    </li>
+    <li>
+      <p>Languages Known :<span>{{ info.languages }}</span></p>
+    </li>
+    <li>
+      <p>Hobbies : <span>{{ info.hobbies }}</span></p>
+    </li>
+    <li>
+      <p>Nationality : <span>{{ info.nationality }}</span></p>
+    </li>
+  </ul>
+  
+</div>
+<div class="sign">
+    <p>I hereby declare that the above mentioned information is to the best of my knowledge and up to date</p>
+    <div class="last">
+        <div class="left">
+            <p>PLACE :-</p>
+            <P>DATE :-</P>
+        </div>
+        <div class="right">
+            <img src="{{img}}" alt="signature" >
+            <P>( {{name}} )</P>
+        </div>
+    </div>
+</div>

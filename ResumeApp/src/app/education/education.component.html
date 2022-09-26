@@ -1,0 +1,20 @@
+<div class="hedaingBorder">
+  <h1>Education Qualification</h1>
+</div>
+
+<table>
+  <tr>
+    <th>Course</th>
+    <th>School/College</th>
+    <th>Board/university</th>
+    <th>Year</th>
+    <th>No. in percentage Or grade</th>
+  </tr>
+  <tr *ngFor="let edu of education">
+    <td>{{ edu.programe }}</td>
+    <td>{{ edu.school }}</td>
+    <td>{{ edu.board }}</td>
+    <td>{{ edu.year }}</td>
+    <td>{{ edu.percentage }}</td>
+  </tr>
+</table>

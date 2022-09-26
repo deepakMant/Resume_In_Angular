@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../src/reset.css";
+
+.hedaingBorder {
+    border: 1px solid transparent;
+    background-color: hsl(32,33%,91%);
+    padding: 0 0.5rem ;
+    margin: 3rem 0;
+    
+    
+}
+.hedaingBorder h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: hsl(211,23%,30%);
+}

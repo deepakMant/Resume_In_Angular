@@ -1,0 +1,20 @@
+<div style="display: flex; justify-content: space-between">
+  <div style="float: left">
+    <h2>{{ title }}</h2>
+    <h1>{{ name }}</h1>
+  </div>
+  <div style="float: right">
+    <p>Phone : <a href="tel:-+917696220900">+91 {{ phone }}</a></p>
+    <p>Email : <a href="mailto: deepakmantro@gmail.com">{{ email }}</a></p>
+    <p>GitHub : <a href="mailto: https://github.com/deepakMant">{{ githubUrl }}</a></p>
+    <p>Linkedin : <a href="mailto: linkedin.com/in/deepak-mantro-526a70a9">{{ linkdinUrl }}</a></p>
+    <div style="margin-top: 0.65rem" class="address">
+        <hr>
+      Address :
+      <div style="padding-left: 3rem" *ngFor="let add of address">
+        <p style="font-size: 11px">{{ add }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+

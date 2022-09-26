@@ -1,0 +1,20 @@
+<div class="boeder">
+  <app-header
+    [title]="resume.title"
+    [name]="resume.name"
+    [email]="resume.email"
+    [phone]="resume.phone"
+    [githubUrl]="resume.githubUrl"
+    [linkdinUrl]="resume.linkdinUrl"
+    [address]="resume.address"
+  ></app-header>
+
+  <app-objective [objective]="resume.objective"></app-objective>
+  <app-skills [skills]="resume.skills"></app-skills>
+  <app-projects [projects]="resume.projects"></app-projects>
+  <app-experience [work]="resume.workExperience"></app-experience>
+  <app-education [education]="resume.education"></app-education>
+  <app-basiceknowledge [basiceknoeledge]="resume.basiceknoeledge"> </app-basiceknowledge>
+  <app-strengths [strengths]="resume.strengths"></app-strengths>
+  <app-personalinformation [personalinfo]="resume.personalinfo" [name]="resume.name" [img]="resume.image"></app-personalinformation>
+</div>

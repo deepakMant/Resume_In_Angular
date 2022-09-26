@@ -1,0 +1,9 @@
+ul  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    width: 50%;
+    padding: 0.8rem 0;
+}

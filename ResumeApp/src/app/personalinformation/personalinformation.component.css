@@ -1,0 +1,41 @@
+ul li {
+    font-size: 17px;
+    line-height: 2rem;
+}
+ul li p {
+    font-weight: bold;
+}
+ul li p span {
+    font-weight: lighter;
+    float: right;
+    text-align: left;
+    margin-right: auto;
+    color: gray;
+
+}
+ul {
+    max-width: 50%;
+    /* text-align: left; */
+}
+
+.sign> p{
+    padding: 4rem 0 2rem;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+.left p {
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.right p {
+    padding: 1rem 0 0rem ;
+}
+img {
+    width: 10rem;
+    height: 2.5rem;
+    padding-top: 1rem;
+}
