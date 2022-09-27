@@ -11,6 +11,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { BasiceknowledgeComponent } from './basiceknowledge/basiceknowledge.component';
 import { StrengthsComponent } from './strengths/strengths.component';
 import { PersonalinformationComponent } from './personalinformation/personalinformation.component';
+import { HttpClientModule} from "@angular/common/http"
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PersonalinformationComponent } from './personalinformation/personalinfo
     PersonalinformationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
